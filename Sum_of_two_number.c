@@ -10,5 +10,5 @@ int main() {
     printf("The sum of %d and %d is %d." , num1 ,num2 ,num1+num2); 
     
     return 0;
-    // here is code of sum of two number
+    // here is code of sum of two number..
 }
