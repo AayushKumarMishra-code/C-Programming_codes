@@ -7,11 +7,6 @@ int alpha( int a , int b){
       
      return b - a ;
 }
-
-
-
-
-
 int main() {
     char A , B;
     scanf("%c %c",&A, &B);
