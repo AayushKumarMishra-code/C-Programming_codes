@@ -2,16 +2,13 @@
 #include <string.h>
 #include <math.h>
 #include <stdlib.h>
+// we have to take input from user in hours and convert it into seconds..
 
  int inttosecond(int hours , int minutes , int seconds){
      hours*= 3600;
      minutes*= 60;
      return hours + minutes + seconds;
-     
 }
-
-
-
 int main() {
     int hours ,minutes, seconds;
     scanf("%d %d %d" , &hours , &minutes , &seconds);
