@@ -8,7 +8,6 @@
     //  f%=10;
      return d%10+f%10;
      
-     
  }
 int main() {
     int a, b;
